@@ -1,0 +1,16 @@
+{
+  "short_name": "Udacity Community - Baroda",
+  "name": "Udacity Community - Baroda",
+  "description": "Udacity Community - Baroda official website",
+  "icons": [
+    {
+      "src":"./favicon.svg",
+      "sizes": "48x48",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#455A64",
+  "theme_color": "#FAFAFA",
+  "display": "standalone"
+}

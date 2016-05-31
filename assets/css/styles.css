@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+/* Home Section */
+.home {
+  height: 100vh;
+  /*background-image: url('../img/background.jpg');*/
+  background-size: cover;
+  background-color: #303030;
+  color: #FFFFFF;
+  /*opacity: 0.7;*/
+  padding: 200px 0 0 0;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+.home h1 {
+  font-size: 50px;
+  letter-spacing: 0.25rem;
+  margin: 24px 0;
+  font-weight: lighter;
+}
+.home .button {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  line-height: 32px;
+  border-radius: 2px;
+  font-size: 0.9em;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.home img {
+  height: 200px;
+  width: 100%;
+}
+
+/* About Section */
+.about, .activities{
+  padding: 10px 0 10px 0;
+}
+.about p {
+  font-size: 25px;
+  line-height: 2rem;
+}
+
+/* Activities Section */
+.activities p {
+  font-size: 25px;
+  line-height: 2rem;
+}
+
+/* Sponsor Section */
+.sponsor {
+  text-align: center;
+}
+.sponsor img {
+  height: 150px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
+  line-height: 1.8em;
+  text-align: center;
+  padding: 30px;
+  background-color: #212121;
+  color: #FFFFFF;
+}
+.footer a{
+  padding: 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}

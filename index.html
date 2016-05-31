@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udacity Community - Baroda</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="home">
+      <!-- <img src="./assets/img/logo.svg" alt="" /> -->
+      <h1>Udacity Baroda</h1>
+      <h3>A community of learners</h3>
+      <a href="http://goo.gl/forms/vegsCfMDkUX0pvlC2" target="_blank" class="button">Join Us</a>
+    </section>
+    <section class="about">
+      <div class="content">
+        <h2>What is Udacity Baroda?</h2>
+        <p>
+          Udacity Baroda Community is a platform for all Udacians in the city to meet fellow
+          Udacians and other amazing people, explore and indulge in awesome events around the
+          community, share relevant and useful resources.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="activities">
+      <div class="content">
+        <h2>Why join Udacity Baroda?</h2>
+        <p>
+          Learning is driven by curiosity and collaboration. Udacity Baroda aims to expand the types
+          of learning patterns and make it more social. Learning together has always proven as a better
+          method of exchanging ideas and knowledge and that is what we are establishing here.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="sponsor">
+      <div class="content">
+        <h2>Our Sponsor</h2>
+        <a href="http://in.udacity.com" target="_blank">
+          <img src="./assets/img/cover.svg" alt="Udacity Image" />
+        </a>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="https://www.facebook.com/UdacityBaroda/" target="_blank" class="button">
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="button">
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://ucommunity-baroda.slack.com/" target="_blank" class="button">
+        <i class="fa fa-slack fa-2x" aria-hidden="true"></i>
+      </a>
+    </footer>
+    <!--  Service Worker Registration -->
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/sw.js')
+          .then(function() { console.log("Service Worker Registered"); });
+      }
+    </script>
+  </body>
+</html>
